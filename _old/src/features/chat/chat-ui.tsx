@@ -25,7 +25,7 @@ export const ChatUI: FC<Prop> = (props) => {
   const { id } = useParams();
   const { data: session } = useSession();
   const [chatBody, setBody] = useState<PromptGPTBody>({
-    id: id,
+    id: Array.isArray(id) ? id.join('-') : id!,
     model: "GPT-3.5",
   });
 

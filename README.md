@@ -53,6 +53,8 @@ Azure ChatGPT is built with the following technologies.
 
 [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https://raw.githubusercontent.com/Inovix/PrivateChatGPT_MVP/main/infra/main.json)
 
+[![Deploy to Azure with this](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FInovix%2FPrivateChatGPT_MVP%2Fmain%2Finfra%2Fmain.json)
+
 Click on the Deploy to Azure button and configure your settings in the Azure Portal as described in the [Environment variables](#🔑-environment-variables) section.
 
 Please see the [section below](#🪪-add-an-identity-provider) for important information about adding authentication to your app.

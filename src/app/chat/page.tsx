@@ -10,10 +10,8 @@ export default async function Home() {
   }
 
   return (
-    <div className="h-full flex justify-center items-center">
-      <Card className="w-full sm:w-3/4 md:w-1/2 lg:w-1/3 xl:w-1/4">
-        <NewChat></NewChat>
-      </Card>
-    </div>
+    <Card className="h-full items-center flex justify-center">
+      <NewChat></NewChat>
+    </Card>
   );
 }

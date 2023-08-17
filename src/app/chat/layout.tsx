@@ -3,8 +3,8 @@ import { ChatMenu } from "@/features/chat/chat-menu/chat-menu";
 import { MainMenu } from "@/features/menu/menu";
 
 export const metadata = {
-  title: "AzureChatGPT",
-  description: "AzureChatGPT",
+  title: "inovix.ai AzureChatGPT",
+  description: "inovix.ai AzureChatGPT",
 };
 
 export default async function RootLayout({

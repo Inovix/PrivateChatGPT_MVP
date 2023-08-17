@@ -19,7 +19,7 @@ export const LogIn = () => {
             <AvatarImage src={"ai-icon.png"} />
           </Avatar>
           <span>
-            Azure<span className="text-muted-foreground">ChatGPT</span>
+            inovix.ai<span className="text-muted-foreground">PrivateChatGPT</span>
           </span>
         </CardTitle>
         <CardDescription>

@@ -176,7 +176,7 @@
                     },
                     {
                       "name": "NEXTAUTH_URL",
-                      "value": "[format('{0}-app-{1}.azurewebsites.net', parameters('name'), parameters('resourceToken'))]"
+                      "value": "[format('https://{0}-app-{1}.azurewebsites.net', parameters('name'), parameters('resourceToken'))]"
                     }
                   ]
                 }

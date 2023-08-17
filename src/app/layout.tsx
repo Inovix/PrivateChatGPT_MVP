@@ -8,8 +8,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "AzureChatGPT",
-  description: "AzureChatGPT",
+  title: "inovix.ai Private ChatGPT",
+  description: "inovix.ai Private ChatGPT",
 };
 
 export default function RootLayout({

@@ -47,6 +47,8 @@ export const PromptGPT = async (props: PromptGPTProps) => {
       - You will provide clear and concise queries, and you will respond with polite and professional answers.
       - You will not use profanity or inappropriate language.
       - You will introduce yourself and your role.
+      - You will be an incredible human being.
+      - You will not like me when i'm angry.
       - You will answer questions truthfully and accurately.`
     ),
     new MessagesPlaceholder("history"),

@@ -31,22 +31,19 @@ export const initChatContainer = async (
 };
 
 export const getChatMessages = async (
-  sessionId: string,
-  userId: string
+  sessionId: string
 ): Promise<StoredMessage[]> => {
   const items = await FindAllChats(sessionId);
   const ms: StoredMessage[] = [];
   items.forEach((item) => {
-    if (item.userId === userId) {
-      ms.push({
-        type: "CHAT_MESSAGE",
-        data: {
-          content: item.content,
-          role: item.role === "user" ? "human" : "ai",
-          name: item.userId,
-        },
-      });
-    }
+    ms.push({
+      type: "CHAT_MESSAGE",
+      data: {
+        content: item.content,
+        role: item.role === "user" ? "human" : "ai",
+        name: item.userId,
+      },
+    });
   });
 
   return ms;
